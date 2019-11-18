@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--应用渲染的位置 -->
+</div>
+
+<script src="build/react.js"></script>
+<script src="build/react-dom.js"></script>
+<script src="babel/browser.js"></script>
+<script type="text/babel">
+    ReactDOM.render(
+        <h1 id="my-heading">
+        <span><em>Hell</em>o</span>world!
+        </h1>,
+        document.getElementById("app")
+    );
+</script>
+
+</body>
+</html>
